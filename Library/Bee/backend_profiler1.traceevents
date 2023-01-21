@@ -1,0 +1,637 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674231124593417, "dur":1276, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231124594700, "dur":107, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674231124594857, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674231124594875, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674231124595169, "dur":621, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231124595790, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126123834, "dur":219, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124053, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124063, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124065, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124071, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124073, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124081, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124083, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124089, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124091, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124096, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124099, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124105, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124114, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126124135, "dur":1389, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674231124595556, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124595798, "dur":1793, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124597601, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674231124597606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124598215, "dur":458, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674231124598678, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674231124598700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124599062, "dur":5857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674231124604921, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674231124604950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124605170, "dur":22689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674231124627873, "dur":140823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674231124768699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124768709, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674231124770242, "dur":12409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674231124782654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124782677, "dur":194944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1674231124977635, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124977754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124977873, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124978384, "dur":15634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124994022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124994053, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124995284, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124995658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231124995664, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231124997625, "dur":29717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125027346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125027352, "dur":10278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125037933, "dur":18104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125056042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125056048, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125058579, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125058790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125058795, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125059623, "dur":20004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125079631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125079636, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125081473, "dur":44762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125126239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125126246, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125128392, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125128537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125128541, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125130042, "dur":23139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125153185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125153191, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125153844, "dur":16893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125170741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125170747, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125173428, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125173527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125173532, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125174578, "dur":22044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125196626, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125196637, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125197388, "dur":42851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125240242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125240249, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125240854, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125241039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125241044, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125241836, "dur":25456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125267296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125267303, "dur":13618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125280932, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125281059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125281063, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125281606, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125281675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125281678, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125282278, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125282353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125282370, "dur":9690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125292070, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125292150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125292153, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125293227, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125293344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125293349, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125295055, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125295507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125295511, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125296436, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125296506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125296510, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125298068, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125298421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125298427, "dur":8661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125307099, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125307707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125307713, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125309383, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125309478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125309483, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125310112, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125310418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125310423, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125312294, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125312398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125312401, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125313104, "dur":55274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125368382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125368387, "dur":9297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125377696, "dur":95392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125473091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125473095, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125474531, "dur":68186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125542721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125542728, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125544731, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125545587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125545593, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125546822, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125546975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125546980, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125547690, "dur":83496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125631190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125631197, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125632325, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125632406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125632410, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674231125635292, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674231125635411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125635564, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1674231125636780, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1674231125636792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125636807, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1674231125637768, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125637780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125637784, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125638422, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125638432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125638435, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125644946, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125644970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125644974, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125646690, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125646705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125646709, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125647634, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125647645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125647649, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125649372, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125649384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125649445, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125652090, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125652101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125652104, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125654688, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125654700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125654707, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125655351, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125655362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125655366, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125656489, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125656518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125656522, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125657083, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125657097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125657100, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125659426, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125659437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125659441, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1674231125660334, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125660361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125660365, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674231125661842, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1674231125661882, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125661890, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1674231125662434, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1674231125662444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125662447, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1674231125663052, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1674231125663061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125663063, "dur":19226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682302, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682335, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682964, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125682977, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1674231125683649, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674231125683660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125683663, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1674231125684476, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1674231125684486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125684489, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1674231125685175, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674231125685266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674231125685271, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1674231125686929, "dur":436922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674231124595598, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674231124595801, "dur":1852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674231124597654, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674231124597683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674231124601986, "dur":231436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1674231124833436, "dur":1267289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674231126100732, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674231126100743, "dur":23031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674231126123789, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1674231126123791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124595663, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124595805, "dur":1790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124597601, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674231124597642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124599167, "dur":49787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674231124648977, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674231124649022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124649695, "dur":119395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674231124769105, "dur":53655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1674231124822767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124822773, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1674231124823591, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1674231124823617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124823622, "dur":52528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1674231124876166, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674231124876199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231124878435, "dur":166106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1674231125044558, "dur":17286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125061848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125061854, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125062701, "dur":24267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125086972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125087024, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125088423, "dur":16423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125104850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125104856, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125105474, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125105717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125105723, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125106334, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125106445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125106450, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125106951, "dur":1073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125108028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125108034, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125109842, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125110093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125110098, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125110873, "dur":17608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125128483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125128489, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125130018, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125130280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125130285, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125131063, "dur":16133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125147217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125147222, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125149260, "dur":18184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125167447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125167452, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125168467, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125168648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125168653, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125169708, "dur":17346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125187059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125187064, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125187823, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125187933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125187938, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125188572, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125188655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125188660, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125191009, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125191121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125191127, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125191693, "dur":15512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125207209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125207214, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125207864, "dur":25472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125233348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125233363, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125234139, "dur":17293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125251436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125251444, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125252176, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125252331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125252336, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125252930, "dur":17608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125270542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125270547, "dur":10073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125280631, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125280806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125280810, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125281502, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125281807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125281811, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125283173, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125283297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125283301, "dur":8569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125291883, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125291973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125291978, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125292745, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125292838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125292843, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125293475, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125293543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125293547, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125295726, "dur":3215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125298944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125298948, "dur":11980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125310942, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125311088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125311092, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125312255, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125312338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125312341, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125313326, "dur":159544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125472874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125472896, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125475545, "dur":29259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125504808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125504814, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125505611, "dur":3494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125509108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125509115, "dur":7262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125516390, "dur":136777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125653171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125653179, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674231125655745, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125655759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125655762, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125656899, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125656911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125656914, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125657738, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125657749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125657753, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1674231125658566, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1674231125658650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125658656, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1674231125659121, "dur":917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1674231125660042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125660048, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1674231125660595, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level9" }}
+,{ "pid":12345, "tid":3, "ts":1674231125660606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125660609, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level9" }}
+,{ "pid":12345, "tid":3, "ts":1674231125661477, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1674231125661488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125661492, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1674231125662582, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1674231125662593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125662596, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1674231125663596, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1674231125663606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125663610, "dur":19391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683011, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683024, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683655, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674231125683671, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1674231125689694, "dur":434148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124595689, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124595810, "dur":1782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124597601, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674231124597640, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124599089, "dur":25557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1674231124624660, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674231124624686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124624701, "dur":144443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674231124769156, "dur":13265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674231124782426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124782475, "dur":41258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674231124823763, "dur":43651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231124867418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231124867602, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231124868494, "dur":135409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1674231125003907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125003915, "dur":23784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1674231125027743, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125027859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125027863, "dur":9535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125037425, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125037548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125037553, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125038080, "dur":24203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125062286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125062291, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125062802, "dur":16163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125078970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125078977, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125079872, "dur":17474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125097350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125097356, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125098027, "dur":19664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125117695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125117701, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125118362, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125118511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125118516, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125119218, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125119317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125119322, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125121531, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125121730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125121736, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125122377, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125122491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125122495, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125124233, "dur":18998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125143235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125143241, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125144059, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125144167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125144172, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125145213, "dur":17865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125163082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125163088, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125163823, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125164101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125164106, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125164937, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125165096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125165101, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125166248, "dur":19228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125185480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125185485, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125188497, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125188919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125188924, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125190679, "dur":16588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125207270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125207274, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125207975, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125208062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125208066, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125208835, "dur":15939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125224779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125224786, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125225432, "dur":18151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125243586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125243593, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125244220, "dur":15531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125259754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125259760, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125260486, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125260575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125260580, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125261266, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125261546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125261551, "dur":18567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125280130, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125280567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125280573, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125281410, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125281557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125281562, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282174, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282264, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282765, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125282855, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125283317, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125283410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125283413, "dur":8460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125291884, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125291973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125291978, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125292569, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125292847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125292851, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125295094, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125295167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125295173, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125296005, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125296077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125296082, "dur":10506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125306632, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125306771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125306776, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125309632, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125309711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125309715, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125310449, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125310536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125310540, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125312152, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125312238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125312244, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125312950, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125313046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125313050, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125313535, "dur":36540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125350079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125350086, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125350753, "dur":104427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125455184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125455190, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125456045, "dur":65294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125521342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125521348, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125522030, "dur":30798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125552833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125552839, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125555149, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125555663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125555668, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125557424, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125557565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125557569, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125558373, "dur":3328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125561705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125561711, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125565120, "dur":181181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125746305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674231125746312, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674231125747164, "dur":376677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124595715, "dur":99, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124595814, "dur":1781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124597601, "dur":30286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1674231124627890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124627896, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1674231124628382, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1674231124628408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124628412, "dur":241840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1674231124870275, "dur":23800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper.exe" }}
+,{ "pid":12345, "tid":5, "ts":1674231124894079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231124894083, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper.exe" }}
+,{ "pid":12345, "tid":5, "ts":1674231124895252, "dur":173446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1674231125068702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125068906, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1674231125069549, "dur":18574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125088127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125088132, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125088853, "dur":56950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125145807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125145812, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125146883, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125146987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125146992, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125149414, "dur":18028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125167446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125167452, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125169314, "dur":27926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125197245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125197254, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125198137, "dur":21518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125219660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125219685, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125220955, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125221953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125221959, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125223184, "dur":20399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125243586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125243593, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125244279, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125244628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125244633, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125246141, "dur":97553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125343698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125343705, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125344360, "dur":64509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125408873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125408879, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125409676, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125409758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125409762, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125410628, "dur":51877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125462509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125462515, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125463235, "dur":26171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125489409, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125489419, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125490152, "dur":141754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125631910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125631918, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125634534, "dur":14279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125648816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125649376, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650043, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650059, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650572, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125650586, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125652018, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674231125652029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125652050, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674231125656758, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674231125656770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125656773, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674231125662803, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1674231125662814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125662817, "dur":20084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1674231125682930, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/level11" }}
+,{ "pid":12345, "tid":5, "ts":1674231125682942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125682945, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/level11" }}
+,{ "pid":12345, "tid":5, "ts":1674231125684126, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/Dig deeper_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125684137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674231125684140, "dur":8385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/Dig deeper_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674231125692538, "dur":431296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124595742, "dur":76, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124595818, "dur":1775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124597601, "dur":18640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124616245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124616251, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124616780, "dur":152008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124768790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124768795, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124769443, "dur":30735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124800182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124800190, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124800864, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124800922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231124800927, "dur":26048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1674231124826995, "dur":912443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DigDeeper build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674231125739441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674231125739471, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DigDeeper build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674231125744231, "dur":379605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674231126126969, "dur":1862, "ph":"X", "name": "ProfilerWriteOutput" }
+,
